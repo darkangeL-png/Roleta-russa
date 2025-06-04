@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+    --first-color: #0f0f0f;
+    --second-color: #e63946;
+    --third-color: #c9b037;
+    --fourth-color: #a8dadc;
+    --fifth-color: #f1faee;
+    --font-family: 'Playfair Display SC', serif;
+}
+
+body {
+    background-color: var(--first-color);
+    color: var(--third-color);
+    font-size: 26px;
+    margin-top: 0;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo {
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.cabecalho_texto {
+    margin-top: 0;
+}
+
+.Destaque {
+    color: var(--second-color);
+}
+
+.texto_meio {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    flex-flow: row ;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
