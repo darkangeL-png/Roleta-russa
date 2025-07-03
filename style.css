@@ -2,48 +2,102 @@
 
 :root {
     --first-color: #0f0f0f;
-    --second-color: #e63946;
+    --second-color: #97242d;
     --third-color: #c9b037;
     --fourth-color: #a8dadc;
     --fifth-color: #f1faee;
     --font-family: 'Playfair Display SC', serif;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 36px;
+    line-height: 1.5;
+}
 
 body {
     background-color: var(--first-color);
     color: var(--third-color);
-    font-size: 26px;
     margin-top: 0;
 }
 
 .cabecalho {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Alinha logo e texto lado a lado */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
     text-align: center;
 }
 
 .logo {
-    width: 280px;
+    width: 180px; /* Ajuste o tamanho conforme necessário */;
     height: auto;
     margin: 0 auto;
 }
 
 .cabecalho_texto {
-    margin-top: 0;
+    flex-flow: row nowrap;
 }
 
-.Destaque {
+.Destaque_titulo {
     color: var(--second-color);
 }
 
 .texto_meio {
     text-align: center;
-    font-size: 50px;
     font-weight: 700;
-    flex-flow: row ;
+    flex-flow: row wrap;
+    margin: 0 32px;
+    font-size: 50px;
+}
+
+.Destaque {
+    color: var(--second-color);
+    font-size: 50px;
 }
 
 .btn {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 4%;
+}
+
+.btn_start {
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    border: none;
+    padding: 14px 38px;
+    border-radius: 12px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.btn_Infos {
+    padding: 14px 24px;
+    font-size: 30px;
+    color: var(--third-color);
+    background-color: transparent;
+    border: 2px solid var(--third-color);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16%;
+    gap: 8px;
+}
+
+.texto_rodape {
+    color: var(--third-color);
+    font-size: 22px;
+    align-items: flex-end;
 }
