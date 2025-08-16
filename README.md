@@ -1,8 +1,4 @@
-<h1 align="center"> jogo-secreto </h1>
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-<h2 align="center">
-:construction:  Projeto em construção  :construction:
-</h2>
-<img loading="lazy" src="" width=115><br><sub>Luiz Henrique</sub>(https://github.com/darkangeL-png) :---: 
+<h1 align="center"> Dev </h1>
+[<img alt="formatted_avatar_460x460" src="https://github.com/user-attachments/assets/3c4f0db9-0352-4709-84fb-bd16cb4077f4" width=150px  /><br><sub>Luiz Henrique</sub>](https://github.com/darkangeL-png)
+:---: 
+
